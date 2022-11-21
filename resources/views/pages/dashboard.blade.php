@@ -28,6 +28,8 @@
                             <li><a href="{{action('LandslideController@viewaddLandslide')}}"><span class="glyphicon glyphicon-plus-sign"></span> Add Landslide Report</a></li>
                             <li><a href="{{action('FloodController@viewaddFlood')}}"><span class="glyphicon glyphicon-plus-sign"></span> Add Flood Report</a></li>
                             <li><a href="{{action('RoadController@viewaddRoadnetwork')}}"><span class="glyphicon glyphicon-plus-sign"></span> Add Road Network Report</a></li>
+                            <li><a href="{{ action('FiresController@viewaddFire') }}"><span class="glyphicon glyphicon-plus-sign"></span> Add Fire Report</a></li>
+                            <li><a href="{{ action('VehicularController@viewaddvehicular') }}"><span class="glyphicon glyphicon-plus-sign"></span> Add Vehicular Report</a></li>
                             <li><a href="{{action('ReportController@showReport')}}"><span class="fa fa-download"></span> Download Sensors Data</a></li>
                         </ul>
                     </div>
