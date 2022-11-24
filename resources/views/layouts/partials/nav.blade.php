@@ -450,9 +450,24 @@
             data:{},
             url: url,
             success:function(r){
-                console.log(r)
                 $('#page-wrapper').html(r)
                 $('#clears-table').DataTable();
+                $('[data-toggle="tooltip"]').tooltip();
+                /* var map = new google.maps.Map(document.getElementById('addcoords'),{
+                    center:{
+                        lat:17.351324,
+                        lng:121.17500399999994
+                    },
+                    zoom:9
+                });
+                var marker = new google.maps.Marker({
+                    position:{
+                        lat:17.351324,
+                        lng:121.17500399999994
+                    },
+                    map:map,
+                    draggable:false
+                }); */
             }
         })
     })

@@ -966,7 +966,7 @@
 
 /* DISPLAY */
 .d-flex{display: flex;}
-
+.d-none{display: none;}
 /* TYPOGRAPHY */
 .strong{font-weight: bolder;}
 .small-text{font-size: 0.8rem;}
@@ -982,6 +982,7 @@
 
 /* BORDERS */
 .border-none{border: none;}
+.rounded{border-radius: 5px;}
 
 /* POSITIONS */
 .pos-a{position: absolute !important;}

@@ -3,9 +3,7 @@
 <div class="wrap">
     <div class="row">
         <div class="col-xs-12 dashboardtitle">
-            <h1>
-                Dashboard
-            </h1>
+            <h1>Dashboard</h1>
         </div>
     </div>
     <div class="row">
